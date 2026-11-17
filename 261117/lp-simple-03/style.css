@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #333;
+  margin: 0;
+}
+
+.inner {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  color: #fff;
+  background: url("https://placehold.jp/1440x540.png") center / cover no-repeat;
+  height: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  padding: 80px 0;
+}
+
+section h2 {
+  margin-bottom: 1em;
+}
+
+section p {
+  line-height: 1.8;
+}
+
+section img {
+  vertical-align: bottom;
+}
+
+#first {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  background: url("https://placehold.jp/400x400.png") left center no-repeat;
+}
+
+#first .inner {
+  width: 500px;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+#first p {
+  margin: 1em 0;
+}
+
+#second .inner,
+#third .inner {
+  text-align: center;
+}
+
+#second p,
+#third p {
+  margin-bottom: 3em;
+}
+
+#second {
+  background: #f4f4f4;
+  padding-bottom: 0;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
